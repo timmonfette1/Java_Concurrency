@@ -30,7 +30,7 @@ You pass the number of students you want as an argument -NUMSTUDENTS.
 If no argument is provided, the code will run with only 50 students.
 
 An example would look like:
-  (from inside coolidge_bus/bin/) java coolidge_bus.Driver -NUMSTUDENTS 100
+  (from inside coolidge_bus/bin/) `java coolidge_bus.Driver -NUMSTUDENTS 100`
 
 Santa Claus
 ------------
@@ -47,12 +47,12 @@ Please run a "make clean" before every compile after the initial.
 Once the code has been compiled, it can be run from the "bin"
 directory.
   - "cd ./santa_claus/bin"
-  - "santa_clause.NorthPole"
+  - "santa_claus.NorthPole"
 
 This code takes no command line arguments or parameters.
 
 An example would look like:
-  (from inside santa_claus/bin/) java santa_claus.NorthPole
+  (from inside santa_claus/bin/) `java santa_claus.NorthPole`
 
 Par vs Seq
 ------------
@@ -79,7 +79,7 @@ The code will not run if it doesn't have enough arguments.
 For sequential, you can pass NUMTHREADS but it will just disregard it.
 
 An example would look like:
-  (from inside par/bin/) java cs361_1_par.histogram -DATASIZE 7000, -NUMTHREADS 8, -NUMBINS 7
+  (from inside par/bin/) `java cs361_1_par.histogram -DATASIZE 7000, -NUMTHREADS 8, -NUMBINS 7`
 
 You can pass the arguments in any order you like, just make sure they're
 all there!
